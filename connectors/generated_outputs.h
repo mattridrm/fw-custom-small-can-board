@@ -4,6 +4,12 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::MM64_OUT_PWM1, // A7 - Low Side
+	Gpio::MM64_OUT_PWM2, // A8 - Low Side
+	Gpio::MM64_OUT_PWM3, // B8 - Low Side
+	Gpio::MM64_OUT_PWM4, // C8 - Low Side
+// "A7 - Low Side",
+// "A8 - Low Side",
+// "B8 - Low Side",
+// "C8 - Low Side",
 }
